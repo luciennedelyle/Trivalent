@@ -177,7 +177,7 @@ new file mode 100644
 +    are <a href="https://flathub.org/apps/io.freetubeapp.FreeTube">FreeTube electron flatpak</a>,
 +    <a href="https://flathub.org/apps/de.schmidhuberj.tubefeeder">Pipeline piped proxy flatpak</a>,
 +    and the YouTube PWA (progressive web-app) paired with uBlock Origin Lite. Consider creating a
-+    separate profile for the Youtube PWA, so you can continue browsing extensionless for your
++    separate profile for the YouTube PWA, so you can continue browsing extensionless for your
 +    usual profile.<br>
 +    To install a PWA, click the <code>Install</code> button in the address bar, or at the top right,
 +    click the three dots, then </code>Save and Share -> Install page as app</code>.
@@ -238,7 +238,7 @@ new file mode 100644
 +  <h2>Additional Feature Toggles</h2><p>
 +    Trivalent introduces some extra flags and features that can be viewed at
 +    <a href="chrome://flags">chrome://flags</a>. The default state of each flag/feature
-+    is explained in it's respective description. Some are features already present in chromium,
++    is explained in its respective description. Some are features already present in chromium,
 +    just exposed, and some are Trivalent-provided features. Both of these are labeled as such.
 +</section>
 +<section>
