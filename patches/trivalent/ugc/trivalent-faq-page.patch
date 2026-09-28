@@ -46,7 +46,7 @@ diff --git a/chrome/browser/ui/webui/trivalent_faq.h b/chrome/browser/ui/webui/t
 new file mode 100644
 --- /dev/null
 +++ b/chrome/browser/ui/webui/trivalent_faq.h
-@@ -0,0 +1,214 @@
+@@ -0,0 +1,221 @@
 +#ifndef CHROME_BROWSER_UI_WEBUI_TRIVALENT_FAQ_H_
 +#define CHROME_BROWSER_UI_WEBUI_TRIVALENT_FAQ_H_
 +
@@ -227,10 +227,11 @@ new file mode 100644
 +    and select <code>Sites can play protected content</code>.
 +  </details>
 +  <details><summary><b>Why don't voice calls (e.g. on Discord) work in Trivalent by default?</b></summary><br>
-+    Voice calling generally requires you to enable JIT and WebRTC. To enable JIT, you need
-+    visit <a href="chrome://settings/security">chrome://settings/security</a> and either toggle
++    Voice calling generally requires you to enable JIT and WebRTC. To enable JIT, you need to
++    visit <a href="chrome://settings/content/v8">chrome://settings/content/v8</a> and either toggle
 +    JIT globally, or add the relevant URL to your allow list. To enable WebRTC, you need to navigate
-+    back to the Privacy and Security settings and set WebRTC Handling Policy to 'Default' under Hardening.
++    to <a href="chrome://settings/security">chrome://settings/security</a> settings and set WebRTC Handling Policy
++    to <code>Default Public Interface Only</code> under Hardening.
 +  </details>
 +</section>
 +<section>
