@@ -228,10 +228,10 @@ new file mode 100644
 +  </details>
 +  <details><summary><b>Why don't voice calls (e.g. on Discord) work in Trivalent by default?</b></summary><br>
 +    Voice calling generally requires you to enable JIT and WebRTC. To enable JIT, you need to
-+    visit <a href="chrome://settings/content/v8">chrome://settings/content/v8</a> and either toggle
-+    JIT globally, or add the relevant URL to your allow list. To enable WebRTC, you need to navigate
-+    to <a href="chrome://settings/security">chrome://settings/security</a> settings and set WebRTC Handling Policy
-+    to <code>Default Public Interface Only</code> under Hardening.
++    visit <a href="chrome://settings/content/v8">chrome://settings/content/v8</a> and add the
++    relevant URL to your allow list, or enable JIT globally. To enable WebRTC, you need to navigate
++    to <a href="chrome://settings/security">security settings</a> and set WebRTC Handling Policy
++    to <code>Default Public Interface Only</code> under the <code>Hardening</code> section.
 +  </details>
 +</section>
 +<section>
